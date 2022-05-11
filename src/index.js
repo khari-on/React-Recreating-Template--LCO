@@ -1,15 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Nav from './nav'
+import App from './app'
 
-const App =()=>{
+const Appy =() => {
     return(
-        <>
-        <Nav />
-        
-        </>
-        
+       <>
+      <App />
+       </>
     )
-}
+};
 
-ReactDOM.render(<App />,document.getElementById("root"))
+ReactDOM.render(<Appy />,document.getElementById("root"))
