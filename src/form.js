@@ -13,13 +13,13 @@ const Form =()=>{
                         <Entry labelinp="Email Address" type="email" id="email" htmlfor="email"/>
                         <Entry labelinp="Phone Number" type="tel" id="phone" htmlfor="phone" />
                     
-                        <div class="form-floating mb-3">
+                        <div className="form-floating mb-3">
                          <textarea className="form-control" id="message" type="text" placeholder="Enter your message here...     "    data-sb-validations="required" style={{height:"10rem"}}></textarea>
 
                          <label htmlfor="message">Message</label>
                     </div>
 
-                        <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
+                        <button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
                    
                  </form>
                 </div>

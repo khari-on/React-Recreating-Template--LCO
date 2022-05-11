@@ -4,20 +4,20 @@ import React from "react";
 const Master = () => {
     return(
    
-         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+         <header className="masthead bg-primary text-white text-center">
+            <div className="container d-flex align-items-center flex-column">
             
-            <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
+            <img className="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
            
-            <h1 class="masthead-heading text-uppercase mb-0">Hari Prasath</h1>
+            <h1 className="masthead-heading text-uppercase mb-0">Hari Prasath</h1>
             
-            <div class="divider-custom divider-light">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                <div class="divider-custom-line"></div>
+            <div className="divider-custom divider-light">
+                <div className="divider-custom-line"></div>
+                <div className="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div className="divider-custom-line"></div>
             </div>
             
-            <p class="masthead-subheading font-weight-light mb-0">Mern Stack  - Web Designer - Tutor</p>
+            <p claclassNamess="masthead-subheading font-weight-light mb-0">Mern Stack  - Web Designer - Tutor</p>
         </div>
     </header>
     )
